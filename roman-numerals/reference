@@ -1,0 +1,134 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "roman_numerals.h"
+
+typedef struct {
+	int key;
+	char *romanNumeralText;
+} RomanNumeralDictionary_t;
+
+RomanNumeralDictionary_t RomanNumeralDictionary[] = {
+		{ 1, "I" },
+		{ 5, "V" },
+		{ 10, "X" },
+		{ 50, "L" },
+		{ 100, "C" },
+		{ 500, "D" },
+		{ 1000, "M" } };
+
+char *to_roman_numeral(int number) {
+	char *romanNumeralResult = malloc(sizeof(char) * 45);
+	int dictionaryIndex = 0;
+
+	sprintf(romanNumeralResult, "");
+
+	while (number > 0) {
+
+//		char thousands = number / 1000;
+//		char hundreds = (number % 1000) / 100;
+//		char tens = (number % 100) / 10;
+		char ones = number % 10;
+
+//		while (thousands>0)
+//		{
+//			dictionaryIndex=1000;
+//			 sprintf(romanNumeralResult, "%c",RomanNumeralDictionary[dictionaryIndex].key);
+//			 thousands--;
+//		}
+//
+//		while ((hundreds>0) && (hundreds<3))
+//		{
+//			dictionaryIndex=100;
+//			 sprintf(romanNumeralResult, "%c",RomanNumeralDictionary[dictionaryIndex].key);
+//			 hundreds--;
+//		}
+//		while ((tens>0) && (tens<3))
+//		{
+//			dictionaryIndex=10;
+//			 sprintf(romanNumeralResult, "%c",RomanNumeralDictionary[dictionaryIndex].key);
+//			 tens--;
+//		}
+
+		while ((ones>0) && (ones<=3))
+		{
+			dictionaryIndex=1;
+			 sprintf(romanNumeralResult,"%s",RomanNumeralDictionary[dictionaryIndex].key);
+//			 ones--;
+		}
+	}
+	return romanNumeralResult;
+}
+
+//while(number > 0)
+//{
+//		char thousands= m[number/1000];
+//		char hundreds = c[(number%1000)/100];
+//		char tens= x[(number%100)/10];
+//		char ones= i[number%10];
+//
+//}
+//
+//   if (number <= 3)
+//   {
+//      for(int i = 0; i < number; i++)
+//      {
+//         sprintf(romanNumeralResult, "%sI", romanNumeralResult);
+//      }
+//   }
+//   else if (4 == number)
+//      {
+//         sprintf(romanNumeralResult, "IV");
+//      }
+//   else if (5 == number)
+//      {
+//         sprintf(romanNumeralResult, "V");
+//
+//      }
+//   else
+//      {
+//         sprintf(romanNumeralResult, "IX");
+//      }
+//   return romanNumeralResult;
+//}
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include "roman_numerals.h"
+
+int number;
+char Resulting[4][4];// storing roman values of digits from 0-9
+char thousands[4];
+char hundreds[4];
+char tens[4]={};
+char ones[4]={};
+// when placed at different places
+const char m[4][4] = {"", "M", "MM", "MMM"};
+const char c[10][4] = {"", "C", "CC", "CCC", "CD", "D","DC", "DCC", "DCCC", "CM"};
+const char x[10][4]= {"", "X", "XX", "XXX", "XL", "L",	"LX", "LXX", "LXXX", "XC"};
+const char i[10][4] = {"", "I", "II", "III", "IV", "V","VI", "VII", "VIII", "IX"};
+
+void intToRoman(int num)
+{
+	// Converting to roman
+	thousands=*m[num/1000][];
+	hundreds[] = *c[(num%1000)/100];
+	tens[] = *x[(num%100)/10];
+	ones[] = *i[(num%10)];
+
+	strcpy(Resulting[0], thousands);
+	strcpy(Resulting[1], hundreds);
+	strcpy(Resulting[2], tens);
+	strcpy(Resulting[3], ones);
+}
+//	strcpy(ans[3],ones);
+
+//	return 0;
+
+// Driver program to test above function
+	char *to_roman_numeral(int number) {
+		char *romanNumeralResult = malloc(sizeof(char) * 45);
+
+
+	intToRoman();
+	return romanNumeralResult;
+}
