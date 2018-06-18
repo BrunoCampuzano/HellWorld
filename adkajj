@@ -1,0 +1,83 @@
+[33mcommit eced521ee02033a64de2bca7b4fa8d5c367e0d34[m[33m ([m[1;36mHEAD -> [m[1;32mLOol[m[33m, [m[1;31morigin/LOol[m[33m)[m
+Author: BrunnoCD <bruno.campuzano@mabe.com.mx>
+Date:   Mon Jun 18 15:43:17 2018 -0400
+
+    hoiios
+
+[33mcommit 1c64a3ecd3aca1ee729693d9b0b742da5ccac7bf[m[33m ([m[1;32mHolatu[m[33m)[m
+Author: BrunnoCD <bruno.campuzano@mabe.com.mx>
+Date:   Mon Jun 18 15:31:11 2018 -0400
+
+    Este mensaje
+
+[33mcommit 365e55ec63c9c6154b44b0fe1c6c1a23b6daf080[m
+Author: BrunnoCD <bruno.campuzano@mabe.com.mx>
+Date:   Mon Jun 18 15:22:45 2018 -0400
+
+    Doing tests :P
+
+[33mcommit c4a6fd0a9ecb7744ea69e0bc029e7f8d512d94b5[m
+Merge: ecd1626 43c911f
+Author: BrunnoCD <bruno.campuzano@mabe.com.mx>
+Date:   Mon Jun 18 15:16:23 2018 -0400
+
+    Merge branch 'Numerals'
+
+[33mcommit 43c911fe0b8572332a22ea064c78650ea38bce5d[m[33m ([m[1;32mNumerals[m[33m)[m
+Merge: 68794b4 ecd1626
+Author: BrunnoCD <bruno.campuzano@mabe.com.mx>
+Date:   Mon Jun 18 15:15:56 2018 -0400
+
+    Merge branch 'master' into Numerals
+
+[33mcommit 68794b481c18f2432421d550bd8e4504adc8b272[m
+Author: BrunnoCD <bruno.campuzano@mabe.com.mx>
+Date:   Mon Jun 18 15:14:04 2018 -0400
+
+    jopk
+    
+    ljkñ
+
+[33mcommit ecd16268ca8fa110db08eaad057a3d22c6acb7ed[m
+Author: BrunnoCD <bruno.campuzano@mabe.com.mx>
+Date:   Mon Jun 18 15:06:13 2018 -0400
+
+    doin kpti
+    
+    eliminate a lines
+
+[33mcommit 91d5448420d4e404c569bedff6954d828c5558f4[m
+Merge: 48bbca5 d9e76fb
+Author: BrunnoCD <bruno.campuzano@mabe.com.mx>
+Date:   Mon Jun 18 14:53:42 2018 -0400
+
+    Merge branch 'master' of https://github.com/BrunnoCD/HellWorld
+
+[33mcommit d9e76fbd2f692d4b439f575c3d631b22c67e301f[m
+Merge: d1d98db e09830e
+Author: Bruno Campuzano <39270874+BrunnoCD@users.noreply.github.com>
+Date:   Mon Jun 18 14:51:46 2018 -0400
+
+    Merge pull request #1 from BrunnoCD/BrunnoCD-patch-1
+    
+    Update README.md
+
+[33mcommit 48bbca58be04f086019a59228d25ea62652a81e1[m
+Author: BrunnoCD <bruno.campuzano@mabe.com.mx>
+Date:   Mon Jun 18 14:48:49 2018 -0400
+
+    --uptadint all the info
+
+[33mcommit e09830e55f53c57da87ff2eddff20f03f87c2476[m[33m ([m[1;32mBrunnoCD-patch-1[m[33m)[m
+Author: Bruno Campuzano <39270874+BrunnoCD@users.noreply.github.com>
+Date:   Mon Jun 18 14:41:29 2018 -0400
+
+    Update README.md
+    
+    --testing to see what happens
+
+[33mcommit d1d98db9f398b35b6c8c856f3657152cc5cce0d9[m
+Author: Bruno Campuzano <39270874+BrunnoCD@users.noreply.github.com>
+Date:   Tue Jun 12 09:47:43 2018 -0400
+
+    Initial commit
