@@ -77,7 +77,7 @@ void clock(time_text_t time_text, int hour, int minute)
             break;
       }
    }
-//   printf("time_text%s", time_text);
+
 }
 
 void clock_add(time_text_t time_text, int minute_offset)
