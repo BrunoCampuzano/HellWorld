@@ -1,11 +1,6 @@
 # HellWorld
-Putting the pressure in the dryer to make sure that it has been done ✅ 
 
-ho
-hisdj
+Actualización de código desde MAC para verificar funcionamiento
+y habilidad para hacer commits.
 
-hisdof
-jsodif
-fnsdiop
-
-sfhsiao
+Commit de prueba.
