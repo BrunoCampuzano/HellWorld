@@ -9,8 +9,9 @@
 #include <stdlib.h>
 #include "clock.h"
 
-typedef struct
-{
+// Este cambio es del commit A1
+
+typedef struct {
    int num;
    char numt;
 } time_conv;
