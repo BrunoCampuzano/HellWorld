@@ -30,9 +30,6 @@ time_conv array[] = {
 
 void clock(time_text_t time_text, int hour, int minute)
 {
-   //   int numero=array[i].num;
-   //   char texto=array[i].numt;
-
    minute = minute + hour * 60;
    hour = 0;
    while(minute < 0)
