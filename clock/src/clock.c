@@ -5,7 +5,6 @@
  *      Author: brunocampuzano
  */
 
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "clock.h"
@@ -15,26 +14,23 @@
 typedef struct {
    int num;
    char numt;
-}time_conv;
+} time_conv;
 
-time_conv array[]={
-   {0,'0'},
-   {1,'1'},
-   {2,'2'},
-   {3,'3'},
-   {4,'4'},
-   {5,'5'},
-   {6,'6'},
-   {7,'7'},
-   {8,'8'},
-   {9,'9'}
+time_conv array[] = {
+   { 0, '0' },
+   { 1, '1' },
+   { 2, '2' },
+   { 3, '3' },
+   { 4, '4' },
+   { 5, '5' },
+   { 6, '6' },
+   { 7, '7' },
+   { 8, '8' },
+   { 9, '9' }
 };
 
 void clock(time_text_t time_text, int hour, int minute)
 {
-//   int numero=array[i].num;
-//   char texto=array[i].numt;
-
    minute = minute + hour * 60;
    hour = 0;
    while(minute < 0)
@@ -78,7 +74,6 @@ void clock(time_text_t time_text, int hour, int minute)
             break;
       }
    }
-
 }
 
 void clock_add(time_text_t time_text, int minute_offset)
@@ -98,13 +93,12 @@ void clock_add(time_text_t time_text, int minute_offset)
    min = min + hour * 60;
    min = min + minute_offset;
 
-//   printf("minutos %d, ten %d, hour %d, thour %d",min, ten, hour, thour);
+   //   printf("minutos %d, ten %d, hour %d, thour %d",min, ten, hour, thour);
    clock(time_text, 0, min);
 }
 
 int cases(char find)
 {
-
    int aux;
 
    switch(find)
