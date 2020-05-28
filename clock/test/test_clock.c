@@ -5,8 +5,6 @@
 #include "vendor/unity.h"
 #include "../src/clock.h"
 
-
-// Este cambio es por el commit A
 time_text_t actual_time_text;
 time_text_t actual_time_text2;
 
