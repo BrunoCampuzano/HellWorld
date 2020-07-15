@@ -9,7 +9,6 @@
 #include <stdlib.h>
 #include "clock.h"
 
-// Este cambio es del commit A1
 
 typedef struct {
    int num;
