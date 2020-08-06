@@ -6,7 +6,7 @@
 enum
 {
   ARandomCharacterSize = 45	
-}
+};
 
 typedef struct
 {
