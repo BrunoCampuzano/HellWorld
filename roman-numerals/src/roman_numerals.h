@@ -10,5 +10,5 @@
 
 char *to_roman_numeral(int number);
 
-#endif /* SRC_ROMAN_NUMERALS_H_ */
+#endif
 
