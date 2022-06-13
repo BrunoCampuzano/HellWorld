@@ -17,7 +17,7 @@
           <img width="256" height="256" src="../diagrams/draw-io_example.drawio.svg">
 </p>
 
-### Some table examples
+### Some table examples using html tags
 
 <table>
     <tr>
