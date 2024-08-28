@@ -12,3 +12,4 @@ This is code with type
 ```consoleS
  Code without a type
 ```
+Test the templates
